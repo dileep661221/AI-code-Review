@@ -74,7 +74,7 @@ app.secret_key = 'your_secret_key_here'  # For flashing messages
 with open("key.txt", "r") as file:
     key = file.read().strip()
 
-genai.configure(api_key=key)
+genai.configure(api_key="AIzaSyAzJI71NwnSz4lV8H6PzLdghqTnMt9zbQg")
 
 # Instruction to the model
 sys_prompt = """
